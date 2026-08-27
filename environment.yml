@@ -1,0 +1,12 @@
+name: C:\Users\guebeli\CAS_ADS_2026_Guebco\CAS_ADS_2026_Guebco\.venv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - ipykernel
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
+prefix: C:\Users\guebeli\CAS_ADS_2026_Guebco\CAS_ADS_2026_Guebco\.venv
