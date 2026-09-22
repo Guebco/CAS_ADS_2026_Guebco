@@ -7,7 +7,9 @@ authors = [
     { name = "Cornel Guebeli", email = "cornel.guebeli@outlook.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "scikit-learn>=1.9.1",
+]
 
 [project.scripts]
 cas-ads-2026-guebco = "cas_ads_2026_guebco:main"
