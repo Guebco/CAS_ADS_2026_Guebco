@@ -1,0 +1,17 @@
+[project]
+name = "cas-ads-2026-guebco"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Cornel Guebeli", email = "cornel.guebeli@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+cas-ads-2026-guebco = "cas_ads_2026_guebco:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
