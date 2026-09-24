@@ -20,6 +20,7 @@ dependencies = [
     "scikit-learn",
     "scipy",
     "seaborn",
+    "tensorflow>=2.21.0",
     "umap-learn",
     "xgboost",
 ]
