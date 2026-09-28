@@ -21,6 +21,7 @@ dependencies = [
     "scipy",
     "seaborn",
     "tensorflow>=2.21.0",
+    "torch>=2.14.0",
     "umap-learn",
     "xgboost",
 ]
