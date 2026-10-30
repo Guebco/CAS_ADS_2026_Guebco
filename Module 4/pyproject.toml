@@ -1,0 +1,22 @@
+[project]
+name = "module-4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Cornel Guebeli", email = "cornel.guebeli@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "nltk>=3.10.4",
+    "notebook>=7.6.3",
+    "pdoc>=16.0.0",
+    "pytest>=9.1.1",
+]
+
+[project.scripts]
+module-4 = "module_4:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
