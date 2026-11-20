@@ -13,9 +13,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
+      - name: Check out documentation sources
+        run: |
+          git init
+          git fetch --depth=1 --no-recurse-submodules "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git" "$GITHUB_SHA"
+          git -c submodule.recurse=false checkout --detach FETCH_HEAD
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
