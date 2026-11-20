@@ -1,0 +1,9 @@
+{% extends "!layout.html" %}
+
+{% block footer %}
+  <nav aria-label="Repository links" class="footer">
+    <a href="{{ pathto('index') }}">Documentation home</a>
+    · <a href="{{ repository_url | e }}">Source repository on GitHub</a>
+  </nav>
+  {{ super() }}
+{% endblock %}
